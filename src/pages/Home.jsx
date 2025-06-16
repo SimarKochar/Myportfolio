@@ -1,11 +1,11 @@
-import ThemeToggle from "../Components/ThemeToggle";
-import StarBackground from "../Components/StarBackground"; 
-import Navbar from "../Components/Navbar";
-import HeroSection from "../Components/HeroSection";
-import AboutMe from "../Components/AboutMe";
-import SkillsSection from "../Components/SkillsSection";
-import ProjectsSection from "../Components/ProjectsSection";
-import Contact from "../Components/Contact";
+import ThemeToggle from "../components/ThemeToggle";
+import StarBackground from "../components/StarBackground";
+import Navbar from "../components/Navbar";
+import HeroSection from "../components/HeroSection";
+import AboutMe from "../components/AboutMe";
+import SkillsSection from "../components/SkillsSection";
+import ProjectsSection from "../components/ProjectsSection";
+import Contact from "../components/Contact";
 
 const Home = () => {
   return (
@@ -17,16 +17,15 @@ const Home = () => {
       {/* Navbar */}
       <Navbar />
       {/* main content */}
-    
-        <main>
-          <HeroSection></HeroSection>
-          <AboutMe></AboutMe>
-          <SkillsSection></SkillsSection>
-          <ProjectsSection></ProjectsSection>
-          <Contact></Contact>
-        </main>
-      </div>
 
+      <main>
+        <HeroSection></HeroSection>
+        <AboutMe></AboutMe>
+        <SkillsSection></SkillsSection>
+        <ProjectsSection></ProjectsSection>
+        <Contact></Contact>
+      </main>
+    </div>
   );
 };
 
